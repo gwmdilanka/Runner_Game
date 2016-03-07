@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg" >
+
+    <LinearLayout
+        android:id="@+id/play_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="129dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/instruction_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Instructions"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#036621"
+            android:textColorHint="#036621"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.52" >
+
+            <TextView
+                android:id="@+id/instruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="To Jump, tap on the screen.\n
+                To collect coin, jump and collect the coin.\n
+                To increase life bar, jump and collect the power bulb.\n
+                To avoid fire, tap rapeadly to hold the jump.\n
+                To close, touch on close icon\n
+                To pause, touch on pause icon\n
+                To restart, touch on restart text.\n\n\n
+                GOOD LUCK"
+                android:textColor="#036621"
+                android:textSize="20sp" />
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

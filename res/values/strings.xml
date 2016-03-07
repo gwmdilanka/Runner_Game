@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Runner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Exit">Exit</string>
+    <string name="Play">Play</string>
+    <string name="Credit">Credit</string>
+    <string name="Help">Help</string>
+    <string name="HighScore">HighScore</string>
+    <string name="Settings">Settings</string>   
+    <string name="Volume">Volume</string> 
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_credit">Credit</string>
+    <string name="title_activity_Help">Help</string>
+    <string name="title_activity_HighScore">HighScore</string>
+    <string name="title_activity_Settings">Settings</string>
+    <string name="title_activity_Game">Game</string>
+    <string name="HS">Highscore :</string>
+    <string name="lPlayer">Last Player :-</string>
+    <string name="lName">Name :</string>
+    <string name="lScore">Score :</string>
+</resources>

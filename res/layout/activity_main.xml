@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.group.runner.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="129dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/Play"
+            android:onClick="play"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        
+         <Button
+             android:id="@+id/settings_btn"
+             android:layout_width="129dp"
+             android:layout_height="48dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#A8A8A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:text="@string/Settings"
+             android:textColor="#FFFFFF"
+             android:textSize="15sp"
+             android:onClick="settings" />
+         
+         <Button
+             android:id="@+id/help_btn"
+             android:layout_width="129dp"
+             android:layout_height="48dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#A8A8A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:text="@string/Help"
+             android:textColor="#FFFFFF"
+             android:textSize="15sp"
+             android:onClick="help" />       
+         
+         <Button
+             android:id="@+id/highscore_btn"
+             android:layout_width="129dp"
+             android:layout_height="48dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#A8A8A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:text="@string/HighScore"
+             android:textColor="#FFFFFF"
+             android:textSize="15sp"
+             android:onClick="highScore" />
+         
+         <Button
+             android:id="@+id/credit_btn"
+             android:layout_width="129dp"
+             android:layout_height="48dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#A8A8A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:text="@string/Credit"
+             android:textColor="#FFFFFF"
+             android:textSize="15sp"
+             android:onClick="credit"/>
+         
+         <Button
+             android:id="@+id/Exit_btn"
+             android:layout_width="129dp"
+             android:layout_height="48dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/buttonshape"
+             android:shadowColor="#A8A8A8"
+             android:shadowDx="0"
+             android:shadowDy="0"
+             android:shadowRadius="5"
+             android:text="@string/Exit"
+             android:textColor="#FFFFFF"
+             android:onClick="exitApplication"
+             android:textSize="15sp" />         
+
+    </LinearLayout>
+
+</RelativeLayout>
